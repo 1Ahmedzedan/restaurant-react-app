@@ -1,0 +1,10 @@
+.main{
+    height: 200vh;
+    background: black;
+}
+
+.cornerImg{
+    position: absolute;
+    top: -40px; 
+    left: -60px;
+}

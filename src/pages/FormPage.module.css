@@ -1,0 +1,20 @@
+.main{
+    background: url(../../public/img/bg.jpg);
+    background-size: cover ; 
+    background-position: center;
+    min-height: 100vh ; 
+
+    display: flex;
+    flex-direction: column;
+    gap : 100px ; 
+
+    padding: 30px;
+}
+
+.form{
+    width: 100%;
+
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+}

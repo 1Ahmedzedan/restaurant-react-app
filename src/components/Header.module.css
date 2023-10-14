@@ -1,0 +1,103 @@
+.main{
+    background: rgba(11, 22, 26, 0.9);
+    color : white ; 
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 40px;
+    width: 100%;
+    position: fixed;
+    top: 0 ; 
+    left: 0;
+}
+
+
+
+.container1{
+    display: flex;
+    align-items: center;
+    gap : 100px ; 
+}
+
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px  ; 
+}
+
+.btnLogin{
+    color: white;
+    background: #D36306 ;
+    border: unset;
+    border-radius: 5px;
+    padding : 5px 25px ; 
+    cursor: pointer;
+}
+
+.btnLogin:hover{
+    background: #f57e1d;
+}
+
+.btnSignup{
+    color: #D36306;
+    background: transparent ;
+    border: 1px solid #D36306;
+    border-radius: 5px;
+    padding : 5px 25px ; 
+    cursor: pointer;
+}
+
+.btnSignup:hover{
+    background: #e8883952;
+}
+
+.search,
+.cart{
+    position: relative ;
+    width: fit-content;
+    height: fit-content;
+}
+
+.search input{
+    color: white;
+    padding: 5px 10px;
+    padding-left: 30px;
+    background: rgba(128, 128, 128, 0.1);
+    border: unset;
+    border-radius: 5px;
+}
+
+.search span{
+    position: absolute ;
+    top : 0px ; 
+    left: 5px ;
+}
+
+.container2 a:hover{
+    transition: 0.5s;
+    color: #D36306 ;
+}
+
+.cart span{
+    position: absolute;
+    bottom: -5px ;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    background: rgba(128, 128, 128, 0.3);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart img{
+    cursor: pointer;
+}

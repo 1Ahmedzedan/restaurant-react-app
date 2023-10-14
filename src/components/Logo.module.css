@@ -1,0 +1,7 @@
+.logo{
+    width: fit-content;
+} 
+
+.logo img{
+    cursor: pointer;
+}
