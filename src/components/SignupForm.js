@@ -48,7 +48,7 @@ function SignupForm(){
         </form>
         <div className={styles.footer}>
             <div>
-            <img src="img/Line.svg" alt="line" className={styles.line}/> Or login with <img src="img/Line.svg" alt="line" className={styles.line}/>
+            <img src="img/line.svg" alt="line" className={styles.line}/> Or login with <img src="img/line.svg" alt="line" className={styles.line}/>
             </div>
 
             <div className={styles.social}>
