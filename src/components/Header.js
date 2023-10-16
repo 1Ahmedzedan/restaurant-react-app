@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styles from './Header.module.css' ; 
 import Logo from './Logo';
 import {NavLink, useNavigate} from "react-router-dom";
+import Button from './Button';
 
 function Header(){
     const navigate = useNavigate() ; 
@@ -30,8 +31,8 @@ function Header(){
                 </div>
 
                 <div className={styles.container2}>
-                    <button className={styles.btnLogin} onClick={()=>navigate("/login")}>Login</button>
-                    <button className={styles.btnSignup} onClick={()=>navigate("/signup")}>Sign up</button>
+                    <Button styleType="btn1" onClick={()=>navigate("/login")}>Login</Button>
+                    <Button styleType="btn2" onClick={()=>navigate("/signup")}>Sign up</Button>
                 </div>
             </div>
         </div>

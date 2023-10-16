@@ -1,10 +1,23 @@
 .main{
-    height: 200vh;
     background: black;
+    padding-top: 150px ;
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .cornerImg{
     position: absolute;
     top: -40px; 
     left: -60px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 60px ; 
+    padding: 0px 50px;
 }

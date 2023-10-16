@@ -1,0 +1,16 @@
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.socialFooter{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    gap: 40px ; 
+
+    width: fit-content;
+}

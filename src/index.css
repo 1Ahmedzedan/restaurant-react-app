@@ -19,3 +19,27 @@ a{
 .active{
   color: #D36306 ;
 }
+
+.slick-track{
+  height: fit-content !important;
+}
+
+.slick-slider div{
+  margin-left: 0px 5px;
+}
+
+.slick-arrow{
+  /* display: none !important; */
+  position: absolute !important;
+  top: 50%  !important;
+}
+
+.slick-dots li.slick-active button::before{
+  color: #D36306 !important; 
+}
+
+.slick-dots li button::before{
+  color: #ffffffb4 !important;
+  font-size: 1rem !important;
+  top: 2rem !important;
+}

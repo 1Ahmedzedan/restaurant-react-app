@@ -1,0 +1,56 @@
+.main{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 80px ; 
+}
+
+.panner{
+    width: 600px;
+    height: 500px;
+    background: url(../../public/img/8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: slider 20s infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slider {
+    25%{
+        background: url(../../public/img/6.png);
+    }
+    50%{
+        background: url(../../public/img/7.png);
+    }
+    75%{
+        background: url(../../public/img/4.png);
+    }
+    100%{
+        background: url(../../public/img/5.png);
+    }
+}
+.title1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(211, 99, 6, 1);
+    text-transform: capitalize;
+}
+
+.title2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+}

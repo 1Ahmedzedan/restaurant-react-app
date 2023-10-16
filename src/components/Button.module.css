@@ -1,0 +1,28 @@
+.btn1{
+    color: white;
+    background: #D36306 ;
+    border: unset;
+    border-radius: 5px;
+    padding : 8px 0px ; 
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn1:hover{
+    background: #f57e1d;
+}
+
+.btn2{
+    color: #D36306;
+    background: transparent ;
+    border: 1px solid #D36306;
+    border-radius: 5px;
+    padding : 8px 0px ; 
+    cursor: pointer;
+    width: 100px;
+
+}
+
+.btn2:hover{
+    background: #e8883952;
+}

@@ -1,0 +1,50 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 40px ; 
+    color: white;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.panner1{
+    width: 400px ; 
+    height: 500px;
+    background: url(../../public/img/1.png);
+}
+
+.panner2{
+    width: 600px ; 
+    height: 500px;
+    background: url(../../public/img/3.png);
+    text-align: center;
+
+    padding: 50px ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ; 
+
+}
+
+.panner3{
+    width: 400px ;
+    height: 500px;
+    background: url(../../public/img/2.png);
+}
+.panner1,.panner2,.panner3{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.panners{
+    display: flex;
+    gap : 20px ; 
+}

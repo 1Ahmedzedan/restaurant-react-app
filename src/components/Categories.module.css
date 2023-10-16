@@ -1,0 +1,29 @@
+.main{
+    width: 100%;
+    color: white;
+     display: flex;
+     flex-direction: column;
+     
+     gap : 40px ; 
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box img{
+    width: 450px;
+    height: 400px;
+    background-color: red;
+    color: white;
+}

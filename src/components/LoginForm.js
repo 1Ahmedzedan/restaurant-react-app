@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import styles from './LoginForm.module.css' ; 
 import { useNavigate } from 'react-router-dom';
+import Button from './Button';
+import SocialIcons from './SocialIcons';
 
 function LoginForm(){
     const navigate = useNavigate() ; 
@@ -23,18 +25,14 @@ function LoginForm(){
                         <p>Don't have an account? <span onClick={()=>navigate("/signup")}>Sign up</span></p>
                     </div>
                 </div>
-                <button>Done</button>
+                <Button styleType="btn1">Done</Button>
             </form>
             <div className={styles.footer}>
                 <div>
                  <img src="img/line.svg" alt="line" className={styles.line}/> Or login with <img src="img/line.svg" alt="line" className={styles.line}/>
                 </div>
 
-                <div className={styles.social}>
-                    <img src="img/facebook.svg" alt="facebook" />
-                    <img src="img/gmail.svg" alt="gmail" />
-                    <img src="img/cloud.svg" alt="cloud" />
-                </div>
+                <SocialIcons styleType="social"/>
             </div>
         </div>
     );
