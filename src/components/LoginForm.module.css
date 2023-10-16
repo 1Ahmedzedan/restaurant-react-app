@@ -45,20 +45,11 @@
     background: transparent;
     border: unset;
     border-radius: 5px;
-    box-shadow: 0.5px 0.5px 4px whitesmoke;
+    box-shadow: 0.5px 0.5px 2px whitesmoke;
 }
 
 .main form button{
-    color: white;
-    background: #D36306 ;
-    border: unset;
-    border-radius: 5px;
-    padding : 8px 0px ; 
-    cursor: pointer;
-}
-
-.main form button:hover{
-    background: #f57e1d;
+    width: 100% !important;
 }
 
 .msg{

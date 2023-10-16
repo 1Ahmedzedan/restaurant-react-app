@@ -30,31 +30,7 @@
     gap: 20px  ; 
 }
 
-.btnLogin{
-    color: white;
-    background: #D36306 ;
-    border: unset;
-    border-radius: 5px;
-    padding : 5px 25px ; 
-    cursor: pointer;
-}
 
-.btnLogin:hover{
-    background: #f57e1d;
-}
-
-.btnSignup{
-    color: #D36306;
-    background: transparent ;
-    border: 1px solid #D36306;
-    border-radius: 5px;
-    padding : 5px 25px ; 
-    cursor: pointer;
-}
-
-.btnSignup:hover{
-    background: #e8883952;
-}
 
 .search,
 .cart{
@@ -85,8 +61,8 @@
 
 .cart span{
     position: absolute;
-    bottom: -5px ;
-    left: 0;
+    top: 0px ;
+    right: -5px;
     width: 16px;
     height: 16px;
     font-size: 10px;

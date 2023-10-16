@@ -2,16 +2,15 @@
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap : 80px ; 
 }
 
 .panner{
-    width: 600px;
-    height: 500px;
+    width: 800px;
+    height: 600px;
     background: url(../../public/img/8.png);
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: round !important;
     background-size: cover;
     animation: slider 20s infinite;
     animation-direction: alternate-reverse;
@@ -19,7 +18,7 @@
 
 @keyframes slider {
     25%{
-        background: url(../../public/img/6.png);
+        background: url(../../public/img/9.png);
     }
     50%{
         background: url(../../public/img/7.png);
@@ -32,25 +31,30 @@
     }
 }
 .title1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: rgba(211, 99, 6, 1);
     text-transform: capitalize;
 }
 
 .title2{
-    font-size: 20px;
+    font-size: 18px;
     text-transform: capitalize;
 }
 
 .desc{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 100px;
     gap: 20px;
 }
 
 .btns{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+}
+
+.btns button{
+    width: 120px !important; 
+    padding: 10px 0 !important;
 }
