@@ -37,7 +37,7 @@
     align-items: center;
     justify-content: space-between;
     font-size: 22px;
-    font-weight: bold;
+    font-weight:500;
 }
 
 .desc .productPrice{
@@ -57,4 +57,5 @@
     background: transparent;
 
     border-radius: 5px;
+    font-family: inherit;
 }

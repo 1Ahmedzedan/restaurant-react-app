@@ -3,9 +3,9 @@
     background: #D36306 ;
     border: unset;
     border-radius: 5px;
-    padding : 8px 0px ; 
+    padding : 10px 0px ; 
     cursor: pointer;
-    width: 100px;
+    width: 120px;
 }
 
 .btn1:hover{
@@ -17,9 +17,9 @@
     background: transparent ;
     border: 1px solid #D36306;
     border-radius: 5px;
-    padding : 8px 0px ; 
+    padding : 10px 0px ; 
     cursor: pointer;
-    width: 100px;
+    width: 120px;
 
 }
 

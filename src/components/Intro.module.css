@@ -53,8 +53,3 @@
     display: flex;
     gap: 10px;
 }
-
-.btns button{
-    width: 120px !important; 
-    padding: 10px 0 !important;
-}
