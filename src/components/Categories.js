@@ -48,8 +48,8 @@ function Categories(){
         <div className={styles.main}>
             <h1 className={styles.title}>Categories</h1>
             <Slider {...settings}>
-               {categories.map((img)=>(
-                <div className={styles.box}>
+               {categories.map((img , idx)=>(
+                <div className={styles.box} key={idx}>
                     <img src={img.src} alt={img.name}/>
                     <h2>{img.name}</h2>
                 </div>

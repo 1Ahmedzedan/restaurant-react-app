@@ -9,12 +9,17 @@ import Img from '../components/Img';
 import Categories from '../components/Categories';
 
 import {bestSellerDessert , bestSellerMeals} from '../data/photos' ; 
+import Cart from '../components/Cart';
+import { useApp } from '../context/AppProvider';
 
 function HomePage(){
+    const {openCart} = useApp() ; 
+    
     return (
         <div className={styles.main}>
             <img src="img/plate.svg" alt="plate" className={styles.cornerImg}/>
             <Header/>
+            {openCart && <Cart/>}
             <div className={styles.content}>
                 <Intro />
                 <About/>

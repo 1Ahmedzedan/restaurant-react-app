@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 0px 40px;
+    padding: 5px 40px;
     width: 100%;
     position: fixed;
     top: 0 ; 
@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px  ; 
+    gap: 30px  ; 
 }
 
 
@@ -48,9 +48,9 @@
     border-radius: 5px;
 }
 
-.search span{
+.search img{
     position: absolute ;
-    top : 0px ; 
+    top : 3px ; 
     left: 5px ;
 }
 
@@ -77,4 +77,8 @@
 
 .cart img{
     cursor: pointer;
+}
+
+.btns{
+    gap:10px !important ; 
 }

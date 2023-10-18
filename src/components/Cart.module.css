@@ -1,0 +1,138 @@
+.main{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px ;
+    width: fit-content;
+
+    background: rgba(23, 23, 23, 0.9);
+    box-shadow: 0.5px 0.5px 4px whitesmoke;
+
+    padding: 30px;
+
+    position: relative;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 5px ; 
+
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.instructions textarea,
+.promoCode input{
+    color: white;
+    font-size: 16px;
+    width: 500px;
+    height: 100px;
+    resize: none;
+    padding: 20px ;
+    
+    border: solid 2px rgba(242, 242, 242, 0.25); 
+
+    background: transparent;
+
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.promoCode input{
+    height: 0px;
+    width: 350px;
+}
+
+.promoCode button{
+    padding: 12.5px 0;
+}
+
+.promoCode,
+.instructions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px ; 
+}
+
+.promoCode div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit{
+    width: 100%;
+}
+.submit button{
+    width: 100%;
+}
+
+.empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px ;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.block{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background: rgba(0 , 0 , 0  , 0.8);
+
+    z-index: 9999;
+}
+
+.close{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.close:hover{
+    background: rgba(255,255,255,0.5);
+}
+
+.itemsCounter{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.itemsCounter span{
+    color: #D36306 ;
+}

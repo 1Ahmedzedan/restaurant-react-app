@@ -2,19 +2,19 @@ const bestSellerDessert = [
     {
         "src" : "img/4.png" ,
         "name" : "Dessert1" ,
-        "price" : "15$" ,
+        "price" : 15 ,
         "id" : "1", 
     },   
     {
         "src" : "img/5.png" ,
         "name" : "Dessert2" ,
-        "price" : "25$" ,
+        "price" : 25 ,
         "id" : "2", 
     },   
     {
         "src" : "img/6.png" ,
         "name" : "Dessert3" ,
-        "price" : "10$" ,
+        "price" : 10 ,
         "id" : "3", 
     },   
 ];
@@ -23,20 +23,20 @@ const bestSellerMeals = [
     {
         "src" : "img/7.png" ,
         "name" : "Pasta" ,
-        "price" : "100$" ,
-        "id" : "1", 
+        "price" : 100 ,
+        "id" : "4", 
     },   
     {
         "src" : "img/8.png" ,
         "name" : "Burger" ,
-        "price" : "150$" ,
-        "id" : "2", 
+        "price" : 150 ,
+        "id" : "5", 
     },   
     {
         "src" : "img/9.png" ,
         "name" : "Stack" ,
-        "price" : "70$" ,
-        "id" : "3", 
+        "price" : 70 ,
+        "id" : "6", 
     },   
 ];
 
@@ -73,4 +73,5 @@ const categories = [
     },
 ];
 
-export {bestSellerDessert , bestSellerMeals , categories} ; 
+export {bestSellerDessert , bestSellerMeals , categories} ;
+// "homepage": "http://1Ahmedzedan.github.io/restaurant-react-app",

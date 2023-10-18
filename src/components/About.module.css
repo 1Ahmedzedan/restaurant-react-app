@@ -34,6 +34,10 @@
 
 }
 
+.panner2 button{
+    width: 140px !important ;
+}
+
 .panner3{
     width: 400px ;
     height: 500px;

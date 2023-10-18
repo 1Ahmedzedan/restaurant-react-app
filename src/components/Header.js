@@ -1,12 +1,14 @@
-import { useState } from 'react';
 import styles from './Header.module.css' ; 
 import Logo from './Logo';
 import {NavLink, useNavigate} from "react-router-dom";
 import Button from './Button';
+import { useApp } from '../context/AppProvider';
+import Profile from './Profile';
 
 function Header(){
     const navigate = useNavigate() ; 
-    const [numberOfCartProduct , setNumberOfCartProduct] = useState(0) ; 
+    const {setOpenCart , numberOfItems , state} = useApp() ; 
+    const {email} = state ; 
 
     return (
         <div className={styles.main}>
@@ -20,20 +22,23 @@ function Header(){
             </div>
             <div className={styles.container1}>
                 <div className={styles.container2}>
-                    <div className={styles.cart}>
+                    <div className={styles.cart} onClick={()=>setOpenCart((e)=>!e)}>
                         <img src="img/cart.svg" alt="cart"/>
-                        <span>{numberOfCartProduct}</span>
+                        <span>{numberOfItems}</span>
                     </div>
                     <div className={styles.search}>
                         <input type="text" placeholder="Search"/>
-                        <span>🔍</span>
+                        <img src="img/search.svg" alt="search"/>
                     </div>
                 </div>
-
-                <div className={styles.container2}>
-                    <Button styleType="btn1" onClick={()=>navigate("/login")}>Login</Button>
-                    <Button styleType="btn2" onClick={()=>navigate("/signup")}>Sign up</Button>
-                </div>
+                {
+                    !email ? 
+                    <div className={`${styles.container2} ${styles.btns}`}>
+                        <Button styleType="btn1" onClick={()=>navigate("/login")}>Login</Button>
+                        <Button styleType="btn2" onClick={()=>navigate("/signup")}>Sign up</Button>
+                    </div> :
+                    <Profile/>
+                }
             </div>
         </div>
     );

@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:20px ; 
+    gap:10px ; 
 }
 
 .desc{
@@ -58,4 +58,8 @@
 
     border-radius: 5px;
     font-family: inherit;
+}
+
+.addCart form button{
+    width: 140px !important;
 }
