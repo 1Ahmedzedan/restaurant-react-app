@@ -1,15 +1,15 @@
 .main{
-    width: 500px;
+    width: 400px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap : 40px ; 
+    /* gap : 40px ;  */
     color: white;
 
     border: solid 2px rgba(242, 242, 242, 0.25);
     border-radius: 5px;
-    padding: 5px 0px;
+    padding: 5px 5px;
 
     background: transparent;
 }
