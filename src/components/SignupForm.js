@@ -11,6 +11,7 @@ function SignupForm(){
 
   function handleSignup(e){
     e.preventDefault() ; 
+    
     navigate("/login") ;
   }
 

@@ -10,7 +10,7 @@ function LoginForm(){
     const [showPassword , setShowPassword] = useState(false) ; 
     const [email , setEmail] = useState("") ; 
     const [password , setPassword] = useState("") ; 
-    const {state} = useApp() ; 
+    const {state , dispatch} = useApp() ; 
 
     function handleLogin(e){
         e.preventDefault() ; 
@@ -23,6 +23,7 @@ function LoginForm(){
             return ; 
         }
         
+        dispatch({type: "account/login"}) ; 
         navigate("/") ; 
     }
     return (

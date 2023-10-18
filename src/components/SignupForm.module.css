@@ -101,3 +101,31 @@
     gap: 20px;
     width: 400px;
 }
+
+@media (max-width:920px){
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        gap : 20px ; 
+    }
+}
+
+@media (max-width:500px) {
+    .line{
+        width: 100px;
+    }
+
+    .controllPass{
+        top: 32% ;
+    }
+
+    .column{
+        width: 300px;
+    }
+}
+
+@media (max-width:410px) {
+    .line{
+        width: 80px;
+    }
+}

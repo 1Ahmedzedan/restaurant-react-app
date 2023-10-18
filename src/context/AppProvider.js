@@ -9,6 +9,7 @@ const intielStateAcount = {
     address: "",
     phoneNumber: "",
     img: "img/defaultAccount.png" ,
+    login : false,
 };
 
 function accountProvider(state , action){
@@ -47,6 +48,11 @@ function accountProvider(state , action){
             return{
                 ...state,
                 img : action.payload,
+            }
+        case "account/login":
+            return{
+                ...state,
+                login : true,
             }
         default: 
             throw new Error("Unknow action type") ; 

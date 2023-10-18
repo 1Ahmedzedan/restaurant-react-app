@@ -79,3 +79,19 @@
 .line{
     width: 150px;
 }
+
+@media (max-width:500px) {
+    .line{
+        width: 100px;
+    }
+
+    .controllPass{
+        top: 32% ;
+    }
+}
+
+@media (max-width:410px) {
+    .line{
+        width: 80px;
+    }
+}
