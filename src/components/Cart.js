@@ -9,14 +9,10 @@ function Cart(){
         <div className={styles.block}>
             <div className={styles.main}>
                 <button className={styles.close} onClick={()=>setOpenCart((e)=>!e)}>❌</button>
-                <h1>Cart</h1>
+                <div className={styles.title}>Cart</div>
                 {
                     cartItems.length ? 
                     <>  
-                        <div className={styles.itemsCounter}>
-                            <p>{numberOfItems} <span>Item</span></p>
-                            <p><span>Total price :</span> {totalPrice}$</p>
-                        </div>
                         <div className={styles.items}>
                             {
                                 cartItems.map((item)=><CartItem item={item} key={item.id}/>)
@@ -34,6 +30,10 @@ function Cart(){
                                 <input placeholder="Enter promo code"/>
                                 <Button styleType="btn2">Apply code</Button>
                             </div>
+                        </div>
+                        <div className={styles.itemsCounter}>
+                            <p>Number Of Item : <span>{numberOfItems}</span></p>
+                            <p>Total price : <span>{totalPrice}$</span></p>
                         </div>
                         <div className={styles.submit}>
                             <Button styleType="btn1">Checkout</Button>
