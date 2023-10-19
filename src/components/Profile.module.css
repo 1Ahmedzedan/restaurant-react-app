@@ -5,6 +5,16 @@
     width: fit-content;
     gap:20px ; 
     color: white;
+
+    cursor: pointer;
+
+    padding: 0px 15px;
+
+    border-radius: 50px;
+}
+
+.main:hover{
+    background: rgba(255, 255, 255 , 0.1);
 }
 
 .main img{
@@ -43,4 +53,50 @@
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+}
+
+.dropBox{
+    background: #D36306;
+    width: 100%;
+    min-height: 50px;
+
+    position: absolute;
+    top: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    border-radius: 5px;
+}
+
+.dropBox::after{
+    content: '';
+
+    width: 20px;
+    height: 8px;
+
+    background: #D36306;
+
+    clip-path: polygon(50% 0 , 100% 100% , 0% 100%);
+
+    position: absolute;
+    top: -7px;
+    
+}
+
+.dropBox span{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.dropBox span:hover{
+    color: black;
+}
+
+.container{
+    position: relative;
 }

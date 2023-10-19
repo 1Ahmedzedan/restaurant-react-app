@@ -4,6 +4,7 @@ import styles from './Profile.module.css' ;
 
 function Profile(){
     const {state , dispatch} = useApp() ; 
+    const [showDropBox , setShowDropBox] = useState(false) ; 
     const {name , img} = state ; 
 
     const [addImg , setAddImg] = useState(false); 
@@ -13,30 +14,39 @@ function Profile(){
         dispatch({type: "account/img" , payload: url})
     }
 
-    return (
-        <div className={styles.main}>
-            <div className={styles.imgContainer}>
-                <img src={img} alt="accountImg" 
-                onMouseEnter={()=>setAddImg(true)}
-                onMouseLeave={()=>setAddImg(false)}/>
-                {
-                    addImg && 
-                    <>
-                        <input 
-                        type="file" 
-                        name="file" 
-                        id="file" 
-                        accept="image/jpeg, image/png, image/jpg" 
-                        onChange={(e)=>handleAddImg(e)}/>
-                        
-                        <label htmlFor="file" 
-                        onMouseEnter={()=>setAddImg(true)} 
-                        onMouseLeave={()=>setAddImg(false)}>+</label>
-                    </>
+    function handleLogout(){
+        dispatch({type:"account/logout"}) ; 
+    }
 
-                }
+    return (
+        <div className={styles.container}>
+            <div className={styles.main} onClick={()=>setShowDropBox((e)=>!e)}>
+                <div className={styles.imgContainer}>
+                    <img src={img} alt="accountImg" 
+                    onMouseEnter={()=>setAddImg(true)}
+                    onMouseLeave={()=>setAddImg(false)}/>
+                    {
+                        addImg && 
+                        <>
+                            <input 
+                            type="file" 
+                            name="file" 
+                            id="file" 
+                            accept="image/jpeg, image/png, image/jpg" 
+                            onChange={(e)=>handleAddImg(e)}/>
+                            
+                            <label htmlFor="file" 
+                            onMouseEnter={()=>setAddImg(true)} 
+                            onMouseLeave={()=>setAddImg(false)}>+</label>
+                        </>
+
+                    }
+                </div>
+                <p>{name}</p>
             </div>
-            <p>{name}</p>
+            {showDropBox && <div className={styles.dropBox}>
+                <span onClick={handleLogout}>Logout</span>
+            </div>}
         </div>
     );
 }

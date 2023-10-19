@@ -54,6 +54,8 @@ function accountProvider(state , action){
                 ...state,
                 login : true,
             }
+        case "account/logout":
+            return intielStateAcount ; 
         default: 
             throw new Error("Unknow action type") ; 
     }

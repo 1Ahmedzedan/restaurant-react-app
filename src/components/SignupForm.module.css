@@ -124,8 +124,12 @@
     }
 }
 
-@media (max-width:410px) {
+@media (max-width:470px) {
     .line{
         width: 80px;
+    }
+
+    .controllPass{
+        top: 37% ;
     }
 }
