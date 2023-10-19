@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bf469e5.css",
-    "main.js": "/static/js/main.f62bd139.js",
-    "static/media/bg.jpg": "/static/media/bg.e8311c7a9906c03e423e.jpg",
-    "static/media/5.png": "/static/media/5.0ea2431af0f06aa4893e.png",
-    "static/media/2.png": "/static/media/2.d0898bca54072e8c02be.png",
-    "static/media/1.png": "/static/media/1.9ba08489308b8cb0b7ff.png",
-    "static/media/4.png": "/static/media/4.2dbe0685c15bf8b9a9ca.png",
-    "static/media/3.png": "/static/media/3.0742aeda1748f8b7b819.png",
-    "static/media/7.png": "/static/media/7.022053662cc362840092.png",
-    "static/media/9.png": "/static/media/9.302deea90eaf2e401179.png",
-    "static/media/8.png": "/static/media/8.987309810581a71e5545.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.6bf469e5.css.map": "/static/css/main.6bf469e5.css.map",
-    "main.f62bd139.js.map": "/static/js/main.f62bd139.js.map"
+    "main.css": "/restaurant-react-app/static/css/main.d25e114c.css",
+    "main.js": "/restaurant-react-app/static/js/main.41805003.js",
+    "static/media/bg.jpg": "/restaurant-react-app/static/media/bg.e8311c7a9906c03e423e.jpg",
+    "static/media/5.png": "/restaurant-react-app/static/media/5.0ea2431af0f06aa4893e.png",
+    "static/media/2.png": "/restaurant-react-app/static/media/2.d0898bca54072e8c02be.png",
+    "static/media/1.png": "/restaurant-react-app/static/media/1.9ba08489308b8cb0b7ff.png",
+    "static/media/4.png": "/restaurant-react-app/static/media/4.2dbe0685c15bf8b9a9ca.png",
+    "static/media/3.png": "/restaurant-react-app/static/media/3.0742aeda1748f8b7b819.png",
+    "static/media/7.png": "/restaurant-react-app/static/media/7.022053662cc362840092.png",
+    "static/media/9.png": "/restaurant-react-app/static/media/9.302deea90eaf2e401179.png",
+    "static/media/8.png": "/restaurant-react-app/static/media/8.987309810581a71e5545.png",
+    "static/media/slick.svg": "/restaurant-react-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/restaurant-react-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/restaurant-react-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/restaurant-react-app/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/restaurant-react-app/index.html",
+    "main.d25e114c.css.map": "/restaurant-react-app/static/css/main.d25e114c.css.map",
+    "main.41805003.js.map": "/restaurant-react-app/static/js/main.41805003.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bf469e5.css",
-    "static/js/main.f62bd139.js"
+    "static/css/main.d25e114c.css",
+    "static/js/main.41805003.js"
   ]
 }
