@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/restaurant-react-app/static/css/main.2393ff7d.css",
-    "main.js": "/restaurant-react-app/static/js/main.41805003.js",
+    "main.css": "/restaurant-react-app/static/css/main.b9d47d66.css",
+    "main.js": "/restaurant-react-app/static/js/main.46db94c2.js",
     "static/media/bg.jpg": "/restaurant-react-app/static/media/bg.e8311c7a9906c03e423e.jpg",
     "static/media/5.png": "/restaurant-react-app/static/media/5.0ea2431af0f06aa4893e.png",
     "static/media/2.png": "/restaurant-react-app/static/media/2.d0898bca54072e8c02be.png",
@@ -16,11 +16,11 @@
     "static/media/slick.ttf": "/restaurant-react-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/restaurant-react-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/restaurant-react-app/index.html",
-    "main.2393ff7d.css.map": "/restaurant-react-app/static/css/main.2393ff7d.css.map",
-    "main.41805003.js.map": "/restaurant-react-app/static/js/main.41805003.js.map"
+    "main.b9d47d66.css.map": "/restaurant-react-app/static/css/main.b9d47d66.css.map",
+    "main.46db94c2.js.map": "/restaurant-react-app/static/js/main.46db94c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2393ff7d.css",
-    "static/js/main.41805003.js"
+    "static/css/main.b9d47d66.css",
+    "static/js/main.46db94c2.js"
   ]
 }
