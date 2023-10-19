@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap : 40px ; 
+    gap : 15px ; 
     color: white;
 }
 
@@ -51,4 +51,50 @@
 .panners{
     display: flex;
     gap : 20px ; 
+}
+
+@media (max-width: 1451px){
+    .panner1,
+    .panner3{
+        width: 300px;
+        height: 400px;
+    }
+
+    .panner2{
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1201px){
+    .panners{
+        flex-direction: column;
+    }
+
+    .panner1,
+    .panner3{
+        width: 600px;
+        height: 200px;
+    }
+
+    .panner2{
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media(max-width: 801px){
+    .panner1,
+    .panner2,
+    .panner3{
+        width: 400px;
+    }
+}
+
+@media(max-width: 401px){
+    .panner1,
+    .panner2,
+    .panner3{
+        width: 300px;
+    }
 }

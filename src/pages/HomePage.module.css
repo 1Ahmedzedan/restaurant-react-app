@@ -21,3 +21,11 @@
     gap : 60px ; 
     padding: 0px 50px;
 }
+
+@media(max-width: 801px){
+    .cornerImg{
+        position: absolute;
+        top: -60px; 
+        left: -80px;
+    }
+}

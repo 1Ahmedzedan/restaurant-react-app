@@ -5,3 +5,11 @@
 .logo img{
     cursor: pointer;
 }
+
+@media (max-width:1400px){
+    .logo img{
+        width: 150px;
+    }
+
+    
+}

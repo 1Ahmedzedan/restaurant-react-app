@@ -1,10 +1,9 @@
 .main{
-    min-width: 400px;
+    width: 400px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap : 40px ;  */
     color: white;
 
     border: solid 2px rgba(242, 242, 242, 0.25);
@@ -82,4 +81,24 @@
     position: absolute;
     right: 5px;
     top: 5px;
+}
+
+@media (max-width:551px){
+    .main{
+        width: 350px;
+    }
+
+    .desc{
+        gap: 80px ; 
+    }
+}
+
+@media (max-width:451px){
+    .main{
+        width: 300px;
+    }
+
+    .desc{
+        gap: 60px ; 
+    }
 }

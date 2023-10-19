@@ -63,3 +63,29 @@
 .addCart form button{
     width: 140px !important;
 }
+
+@media (max-width: 1201px){
+    .main img{
+        width: 600px;
+        
+    }
+}
+
+@media(max-width: 801px){
+    .main img{
+        width: 400px;
+        height: 300px;
+    }
+
+    .addCart form textarea{
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media (max-width:401px){
+    .main img{
+        width: 300px;
+    }
+
+}

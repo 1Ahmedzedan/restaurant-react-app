@@ -152,3 +152,52 @@
     color: #D36306 ;
     font-weight: bold;
 }
+
+@media (max-width:551px){
+    .main{
+        width: 400px;
+    }
+
+    .submit,
+    .itemsCounter,
+    .instructions textarea,
+    .instructions,
+    .promoCode{
+        width: 350px;
+    }
+
+    .promoCode input{
+        width: 220px;
+    }
+    
+    .promoCode button{
+        padding: 7.5px 0;
+    }
+}
+
+
+@media (max-width:451px){
+    .main{
+        width: 350px;
+    }
+
+    .submit,
+    .itemsCounter,
+    .instructions textarea,
+    .instructions,
+    .promoCode{
+        width: 300px;
+    }
+
+    .promoCode input{
+        width: 170px;
+    }
+    
+    .promoCode button{
+        padding: 7.5px 0;
+    }
+
+    .empty{
+        font-size: 14px;
+    }
+}
